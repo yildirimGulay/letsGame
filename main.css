@@ -1,0 +1,136 @@
+
+#container{
+    widows: 100%;
+    height: 600px;
+    margin: 0px auto;
+    padding-top: 30px;
+   text-align: center;
+   font-size: large;
+   line-height: 30px;
+   background-color: lightcoral;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100% ;
+  
+}
+
+.box{
+    width: 150px;
+    height:150px;
+    background-color: seagreen;
+    margin: 10px 0 0px 50px;
+    border-radius: 75px;
+    float :left;  
+}
+
+.hidden{
+    visibility: hidden;
+}
+.eyes1{
+    background-color: thistle;
+    width: 30px;
+    height: 35px;
+    border-radius: 20px;
+    margin:40px 0px 0 30px;
+    float :left;
+}
+.eyes2{
+    background-color: thistle;
+    width: 30px;
+    height: 35px;
+    border-radius: 20px;
+    margin:40px 30px 10px 0px;
+    float :right;
+}
+.mouth{
+    background-color: thistle;
+    width: 75px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+    margin:8px 0 10px 35px
+}
+.mouth2{
+    background-color:  seagreen;
+    width: 75px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+    margin-top: -8px;
+}
+
+.mouth3{
+    background-color:  seagreen;
+    width: 75px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+}
+
+.dot{
+    background-color: black;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    float: left;
+    margin:10px 0 0 7px;
+
+}
+.dot2{
+    background-color: black;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    float: left;
+    margin:10px 0 0 7px;
+
+}
+.check{
+   
+    float: left;
+    margin:250px 0 0 150px ;
+    width: 30px;
+    height:30px;
+}
+
+input:checked + div .hidden {
+   
+    visibility:visible;   
+}
+input:checked+ div.trans {
+    transform: scale(1,02);
+  
+}
+.cong::after {
+    content: "Congratulations";
+    
+}
+ .cong{
+    color: rgb(102, 20, 255);
+ }
+p::selection{
+    background-color: yellowgreen;
+    color:black;
+}
+mark::selection{
+    background-color: yellowgreen;
+    color:black;
+}
+strong::selection{
+    background-color: yellowgreen;
+    color:black;
+}
+bold::selection{
+    background-color: yellowgreen;
+    color:black;
+}
+em::selection{
+    background-color: yellowgreen;
+    color:black;
+}
+br::selection{
+    background-color: yellowgreen;
+    color:black;
+}
